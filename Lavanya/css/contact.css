@@ -1,0 +1,23 @@
+.contact-main{
+display: flex;
+width:fit-content;
+margin: 0 auto;
+
+}
+
+.contact-info{
+    margin-right: 3rem;
+    width: 30vw;
+}
+
+.vertical{
+    height: 30rem;
+    margin-top: 2rem;
+    color:#3FDFD0;
+}
+
+.contact-email{
+    margin-left: 3rem;
+    width: 30vw;
+
+}

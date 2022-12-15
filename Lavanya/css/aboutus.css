@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #222222;
+    font-family: Montserrat;
+    /* text-transform: uppercase; */
+    
+}
+body{
+    width: 100%;
+    background-color: #F3ECDA;
+    justify-content: center;
+}
+
+.top-bar{
+    height: 42px;
+    width: 100%;
+    background-color: #3FDFD0;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 300;
+    justify-content: space-around;
+}
+
+
+
+header .main{
+    height: 88px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+
+}
+
+.searchbar input{
+    border-radius: 53px;
+    outline: none;
+    border: 1px solid;
+    border-color: #3FDFD0;
+    height: 42px;
+    width: 509px;
+}
+
+.track-button button{
+    border-radius: 138px;
+    height: 41.11px;
+    width: 200.9px;
+    border: 1px solid;
+    border-color: #3FDFD0;
+    background-color: #3FDFD0;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 65px;
+    font-size: 13px;
+    font-weight: 300;
+}
+/*heading of about us*/
+.head_aboutUs{
+    height:547px;
+    width:100%;
+    background-image: url("/img/headabout.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.head_aboutUs h1{
+ 
+    text-align: center;
+    padding: 190px;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 65.0527px;
+    line-height: 192.52%;
+    /* or 148px */
+    
+    
+    background: linear-gradient(92.38deg, #B7986D 17.84%, #EFE7AC 90.36%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    
+    text-shadow: 0px 0.840323px 14.2855px #000116;
+    
+}

@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #222222;
+    font-family: Montserrat;
+    /* text-transform: uppercase; */
+    
+}
+body{
+    width: 100%;
+    background-color: #F3ECDA;
+    justify-content: center;
+}
+
+.top-bar{
+    height: 42px;
+    width: 100%;
+    background-color: #3FDFD0;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 300;
+    justify-content: space-around;
+}
+
+
+
+header .main{
+    height: 88px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+
+}
+
+.searchbar input{
+    border-radius: 53px;
+    outline: none;
+    border: 1px solid;
+    border-color: #3FDFD0;
+    height: 42px;
+    width: 509px;
+}
+
+.track-button button{
+    border-radius: 138px;
+    height: 41.11px;
+    width: 200.9px;
+    border: 1px solid;
+    border-color: #3FDFD0;
+    background-color: #3FDFD0;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 65px;
+    font-size: 13px;
+    font-weight: 300;
+}
+/*sliding bar*/
+.slider img{
+    width: 100%;
+    height: 295px;
+    vertical-align: middle;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .slider{
+    display:none ;
+  }
+  .prev,.next{
+    cursor:pointer;
+    position: absolute;
+    top:50%;
+    width: auto;
+    margin-top:AUTO;
+    padding: 16px;
+    color: #551111;
+    font-weight: bold;
+    font-size: 30px;
+    transition:0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next{
+     right:0%;
+     border-radius: 3px 0 0 3px;
+  }
+  .prev:hover,.next:hover{
+    background-color: rgba(0,0,0,0.8);
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(29, 17, 17);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .all_dot{
+       text-align: center;
+  }
+  
+  .active, .dot:hover {
+    background-color: #d9c9c9;
+    transform: scale(1.5);
+  }
+  
+  .fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+
+ /* onestop */
+ .one_stop{
+    width: 100vw;
+    height: 643px;
+    margin-left: 20px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+ .stop_img {
+    display: block; 
+   
+ }
+ .saree_shop{
+    position: relative;
+    bottom: 25%;
+    left: 20%;
+ }
+ .saree_shopkepper {
+    position: absolute;
+    top: 100%;
+    right: 17%;
+ }
+ .flower{
+    position: relative;
+    bottom: 38%;
+    left: 60%;
+    z-index: -1;
+ }
+ .flower_right{
+    position: relative;
+    bottom:0.5%;
+    left: 48%;
+    z-index: -1;
+    
+ }
+ .mid_txt h6,h2,p{
+    text-align: center;
+    margin: 2px;
+ }
+ .mid_txt button{
+    margin-top: 10px;
+    margin-left: 90px;
+    border-radius: 66px;
+    padding: 4px;
+    background-color: #3FDFD0;
+ }
+ /* shop fabric part */
+
+ .shop_fabric{
+    width:100vw;
+ }
+
+ .heading_one{
+    display: flex;
+    justify-content:center;
+ }
+ .h_text{
+    font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 42px;
+
+text-align: center;
+letter-spacing: 1px;
+text-transform: capitalize;
+
+color: #222222;
+
+}
+
+.image_contain{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+ }
+
+ .main_content{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 10%;
+ }
+ .grp_img{
+      margin-top: 10px;
+ }
+ /*review section*/
+ .review{
+    margin-top: 60px;
+ }
+ .review_content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+ }
+ .f_review_photo{
+    margin-top: 15%;
+ }
